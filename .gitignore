@@ -103,4 +103,409 @@ dist
 # TernJS port file
 .tern-port
 
+# ============================================
+# macOS SPECIFIC
+# ============================================
+
+# General
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ============================================
+# VISUAL STUDIO CODE
+# ============================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# ============================================
+# OFFICE TEMPORARY FILES
+# ============================================
+
+# Microsoft Office
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+~$*.xlsx
+~$*.pptx
+~$*.docx
+
+# Excel temporary files
+*.xlk
+
+# PowerPoint temporary files
+*.pptx~
+*.ppt~
+
+# Word temporary files
+*.docx~
+*.doc~
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+*.cson
+*.coffee
+.htaccess
+
+# Notepad++
+*.sess
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# PROGRAMMING LANGUAGES
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# TypeScript
+*.tsbuildinfo
+
+# ============================================
+# WEB DEVELOPMENT
+# ============================================
+
+# Parcel bundler
+.parcel-cache/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+.nuxt-prod
+
+# Gatsby
+.cache/
+public
+
+# Angular
+dist/
+
+# Svelte
+.svelte-kit/
+
+# Vue
+dist/
+
+# ============================================
+# DATABASES
+# ============================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# MongoDB
+/data/db/
+*.ns
+*.0
+*.1
+*.2
+
+# Redis
+dump.rdb
+
+# PostgreSQL
+*.pid
+*.postgres
+
+# MySQL
+*.frm
+*.myd
+*.myi
+
+# ============================================
+# DOCKER
+# ============================================
+
+docker-compose.override.yml
+
+# ============================================
+# CI/CD
+# ============================================
+
+.circleci/
+.travis.yml
+.gitlab-ci.yml
+.azure-pipelines/
+appveyor.yml
+
+# ============================================
+# PACKAGE MANAGERS
+# ============================================
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+
+# Sphinx
+_build/
+
+# MkDocs
+site/
+
+# ============================================
+# SECRETS & CREDENTIALS
+# ============================================
+
+# Secrets
+secrets.yml
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys
+*.pem
+*.key
+*.crt
+*.cer
+
+# ============================================
+# BUILD TOOLS
+# ============================================
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Ant
+antBuild/
+
+# ============================================
+# MISC
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.old
+
+# Temp files
+*.tmp
+*.temp
+
+# System files
+*.sys
+*.dmp
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Media
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# Documents
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+
+# MikroTik RouterOS
+# Backup files
+*.backup
+*.rsc
+
+# Export files
+*.export
+
+# Log files
+*.log
+
+# WireGuard
+*.key
+*.pub
+*.psk
+
+# VPN configs (excluding templates)
+*.conf
+!template.conf
+
+# BGP configs
+bgp_*.txt
+
